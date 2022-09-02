@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Xamarin.Binding.Helpers" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Binding.Helpers" Version="0.2.0-preview.1" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+      <AndroidStudioProject Include="../MapboxInterop" Module="mapboxinteroplib" GenerateBinding="True" />
+  </ItemGroup>
+</Project>

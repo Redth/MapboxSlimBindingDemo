@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MapboxInteropSample</string>
+    <string name="app_text">Hello, Android!</string>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">false</bool>
+    
+</resources>

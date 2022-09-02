@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxInteropBinding", "MapboxInteropBinding\MapboxInteropBinding.csproj", "{E0C1A85A-2287-4395-9724-F6442A5290F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxInteropSample", "MapboxInteropSample\MapboxInteropSample.csproj", "{600DF583-3EC5-46CC-B434-2CE7AE64B85D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0C1A85A-2287-4395-9724-F6442A5290F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C1A85A-2287-4395-9724-F6442A5290F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C1A85A-2287-4395-9724-F6442A5290F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C1A85A-2287-4395-9724-F6442A5290F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600DF583-3EC5-46CC-B434-2CE7AE64B85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600DF583-3EC5-46CC-B434-2CE7AE64B85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600DF583-3EC5-46CC-B434-2CE7AE64B85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600DF583-3EC5-46CC-B434-2CE7AE64B85D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2D63767-D9E1-463D-9212-91E5D579B19B}
+	EndGlobalSection
+EndGlobal
